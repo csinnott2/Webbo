@@ -1,0 +1,88 @@
+
+head, body{
+    font-family: roboto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.header, .bodyzone{
+    background-color: #232e3d;
+    color: white;
+
+}
+
+body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.toplinething{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+#headtext{
+    font-weight: 900;
+}
+
+.hat-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight:200;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.BigBoy{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.BigBoy, .LittleBoy{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+
+}
+
+.bodyzone{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    color: white;
+    padding: 50px;
+}
+
+.wingull{
+    padding: 8px;
+    background-color: #3882f6;
+    border-radius: 6px;
+    color: white;
+    font-weight: 1000;
+    border: none;
+}
