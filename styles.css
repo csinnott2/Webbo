@@ -72,13 +72,19 @@ a:hover{
 
 }
 
+
 .bodyzone, .secondzone, .thirdzone, .fourthzone{
     display: flex;
     flex: 1;
     align-items: center;
     justify-content: center;
     gap: 32px;
+    color: black;
+}
+
+.bodyzone{
     color: white;
+    padding-bottom: 24px;
 }
 
 .secondzone{
@@ -103,9 +109,11 @@ a:hover{
     justify-items: baseline;
     align-items: center;
     gap: 0;
+    padding: 36px;
 }
 .quote, .attrib{
     font-size: 20px;
+    padding: 0;
 }
 
 .quote{
@@ -114,10 +122,8 @@ a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 75px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
     max-width: 500px;
+    margin-bottom: 0;
 }
 
 .attrib{
@@ -163,4 +169,57 @@ a:hover{
     color: rgb(71, 70, 151);
     display: flex;
     flex-wrap: wrap;    
+}
+
+.fourthzone{
+    display: flex;
+    padding: 30px;
+    color: white;
+}
+.theinfo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.callNow, .furthermore{
+    margin: 0;
+}
+
+.callNow{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.allthat{
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 15px;
+    background-color: #3882f6;
+    border-radius: 12px;
+}
+
+.infobutton{
+    height: 30px;
+    background-color: #008deb;
+    border-color: white;
+    color: white;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+.bottomlinething{
+    background-color: #232e3d;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    color: white;
+    margin: 0;
+}
+
+.endzone{
+    font-size: 12px;
 }
